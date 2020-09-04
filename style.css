@@ -1,0 +1,51 @@
+.container{
+    width: 60vw;
+    height: 70vh;
+    position: relative;
+    margin: auto;
+    top: 20vh;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.left-part{
+background: blue;
+width: 30%;
+transition: 1s ease all;
+height: 80%;
+}
+.mid-part{
+background-color: darkgoldenrod;
+width: 10%;
+height: 80%;
+transition: 1s ease all;
+transform: translateY(-150%);
+position: absolute;
+}
+.right-part{
+background-color: firebrick;
+width: 30%;
+height: 80%;
+transition: 1s ease all;
+}
+.left-part-after{
+    margin-right: 20%;
+}
+.mid-part-after{
+    transform: translateY(0px);
+}
+.btn-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+#btn {
+    padding: 35px;
+    background-color: green;
+}
